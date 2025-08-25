@@ -6,7 +6,8 @@ QT的UI消息响应（信号和槽机制），按钮样式修改，自定义按�
 (a)使用windeployqt把exe所依赖的Qt 库 DLL、、翻译文件（ .qm ）等复制到 EXE 所在的目录；  
 (b)手动添加非 Qt 依赖，windeployqt 只负责 Qt 自身的依赖，项目依赖的非Qt的DLL文件需要手动复制到 exe 目录中。
 ### 2.2 使用Enigma Virtual Box软件
-使用Enigma Virtual Box软件把exe和所依赖的dll文件整合到一个exe文件中，不会损失运行效率。
+使用Enigma Virtual Box软件把exe和所依赖的dll文件整合到一个exe文件中，不会损失运行效率。  
+Enigma Virtual Box项目: qtuitest_boxed.evb，生成的单一exe可执行文件: qtuitest_packdemo.part1.rar、qtuitest_packdemo.part2.rar
 # 参考文件：
 [1]. QT中提升为自定义控件的方法 - 知乎  
 [2]. Windows下将QT打包为可执行文件（exe）的完整流程，包含第三方库。 - 笑眯眯办大事 - 博客园
@@ -23,3 +24,4 @@ Integrate the EXE and its dependent DLL files into a single EXE file without los
 # Reference Documents
 [1]. QT中提升为自定义控件的方法 - 知乎  
 [2]. Windows下将QT打包为可执行文件（exe）的完整流程，包含第三方库。 - 笑眯眯办大事 - 博客园
+<img src="qt_ui_test.jpg">
