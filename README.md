@@ -24,4 +24,6 @@ Integrate the EXE and its dependent DLL files into a single EXE file without los
 # Reference Documents
 [1]. QT中提升为自定义控件的方法 - 知乎  
 [2]. Windows下将QT打包为可执行文件（exe）的完整流程，包含第三方库。 - 笑眯眯办大事 - 博客园
+
+#程序运行界面：
 <img src="qt_ui_test.jpg">
